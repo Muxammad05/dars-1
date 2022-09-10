@@ -1,0 +1,41 @@
+body{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+a{
+text-decoration: none;
+color: unset;
+}
+
+ul{
+list-style: none;
+}
+
+.container{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.site-header{
+background-color: rgb(18, 197, 116);
+padding: 40px;
+}
+
+.site-header__block{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.site-header__list{
+display: flex;
+}
+
+.site-header__link{
+margin: 20px;
+color: #fff;
+}
